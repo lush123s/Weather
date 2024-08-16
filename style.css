@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=Croissant+One&family=Gabarito&family=Geologica:wght@500&family=Gloock&family=Lato:ital,wght@0,400;1,400;1,900&family=Mooli&family=Noto+Sans:ital,wght@1,300;1,400&family=PT+Serif:ital,wght@1,700&family=Roboto:ital,wght@0,500;1,100;1,400&family=Shantell+Sans:wght@300;400&family=Sigmar&family=Tilt+Warp&family=Ubuntu:ital@1&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    max-width: 400px;
+    margin: 70px auto 0;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 30px;
+    color: #555;
+    padding: 10px 25px;
+    flex: 1;
+    height: 50px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background-color: #ebfffc;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.search img{
+    width: 18px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+.weather h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+} 
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 26px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    margin-top: 10px;
+    color: rgb(119, 18, 18);
+    font-size: 20px;
+    display: none;
+}
